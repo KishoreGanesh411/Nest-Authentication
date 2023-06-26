@@ -1,0 +1,15 @@
+version: 
+services:
+  dev-db:
+    image:
+    ports:
+      
+    environment:
+      - POSTGRES_USER=
+      - POSTGRES_PASSWORD=
+      - POSTGRES_DB=
+    networks:
+      - nestproject
+
+networks:
+  nestproject:
